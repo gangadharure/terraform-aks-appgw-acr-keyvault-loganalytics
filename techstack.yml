@@ -1,0 +1,48 @@
+repo_name: gangadharure/terraform-aks-appgw-acr-keyvault-loganalytics
+report_id: 9a014375ed0e29551d7845480090f662
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T15:21:05+00:00'
+requested_by: bart-jansen
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/terraform-aks-appgw-acr-keyvault-loganalytics
+  detection_source: Repo Metadata
+- name: Terraform
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://www.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source_url: https://github.com/gangadharure/terraform-aks-appgw-acr-keyvault-loganalytics/blob/main/modules/vnet/main.tf
+  detection_source: modules/vnet/main.tf
+  last_updated_by: Bart Jansen
+  last_updated_on: 2021-03-19 08:03:39.000000000 Z
+- name: Terraform Registry
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://registry.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source_url: https://github.com/gangadharure/terraform-aks-appgw-acr-keyvault-loganalytics/blob/main/modules/vnet/main.tf
+  detection_source: modules/vnet/main.tf
+  last_updated_by: Bart Jansen
+  last_updated_on: 2021-03-19 08:03:39.000000000 Z
